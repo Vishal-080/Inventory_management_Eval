@@ -9,7 +9,7 @@ export const BottomSection = ({ currentList, orderList }) => {
     return (
       <>
         <button onClick={() => setBottomButton(2)}> Show Current List </button>
-        {currentList.map((el) => {
+        {orderList.map((el) => {
           return <ItemList key={uuid()} el={el}></ItemList>;
         })}
       </>
@@ -20,7 +20,7 @@ export const BottomSection = ({ currentList, orderList }) => {
     return (
       <>
         <button onClick={() => setBottomButton(1)}> Show Order List </button>
-        {orderList.map((el) => {
+        {currentList.map((el) => {
           return <ItemList key={uuid()} el={el}></ItemList>;
         })}
       </>
