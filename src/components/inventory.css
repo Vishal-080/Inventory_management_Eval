@@ -1,0 +1,15 @@
+.topSection {
+  border: 1px solid grey;
+  background-color: orange;
+  border-radius: 28px;
+  margin: 10px 0;
+  padding-bottom: 20px;
+}
+
+.bottomSection {
+  border: 1px solid grey;
+  background-color: lawngreen;
+  border-radius: 28px;
+  margin: 10px 0;
+  padding-bottom: 20px;
+}

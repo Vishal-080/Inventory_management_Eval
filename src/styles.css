@@ -3,7 +3,8 @@
   text-align: center;
   width: 80%;
   margin: auto;
-  border: 15px solid greenyellow;
-  background-color: cyan;
-  border-radius: 15px;
+  border: 10px solid royalblue;
+  background-image: url("https://i.pinimg.com/originals/ce/eb/3d/ceeb3d02ced53a1a052302e37784b8a1.jpg");
+  background-size: cover;
+  border-radius: 20px;
 }

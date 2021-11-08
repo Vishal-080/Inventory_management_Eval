@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "./inventory.css";
+import { BottomSection } from "./bottomSection";
 
 export const Inventory = () => {
   const [inputText, setInputText] = useState("");
@@ -23,7 +25,9 @@ export const Inventory = () => {
 
   return (
     <div>
-      <div>
+      <br />
+      <div className="topSection">
+        <h4>Our Top Section</h4>
         <input
           type="text"
           placeholder="Enter Items from Store"
@@ -33,6 +37,12 @@ export const Inventory = () => {
         <button onClick={addCurrent}>Add to Current List</button>
         <button onClick={addOrder}>Add to Order List</button>
       </div>
+      <br />
+      <div className="bottomSection">
+        <h4>Our Bottom Section</h4>
+        <BottomSection currentList={currentList} orderList={orderList} />
+      </div>
+      <br />
     </div>
   );
 };
