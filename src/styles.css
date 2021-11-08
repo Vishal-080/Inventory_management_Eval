@@ -11,4 +11,6 @@
 
 #OTS {
   text-decoration: line-through;
+  background-color: red;
+  color: white;
 }
