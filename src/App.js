@@ -4,7 +4,7 @@ import { Inventory } from "./components/inventory";
 export default function App() {
   return (
     <div className="App">
-      <h1>Welcome to Store</h1>
+      <h1>Welcome to MY Store</h1>
       <Inventory />
     </div>
   );
