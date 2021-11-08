@@ -40,7 +40,10 @@ export const Inventory = () => {
       <br />
       <div className="bottomSection">
         <h4>Our Bottom Section</h4>
-        <BottomSection currentList={currentList} orderList={orderList} />
+        <BottomSection
+          currentList={currentList}
+          orderList={orderList}
+        ></BottomSection>
       </div>
       <br />
     </div>

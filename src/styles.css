@@ -8,3 +8,7 @@
   background-size: cover;
   border-radius: 20px;
 }
+
+#OTS {
+  text-decoration: line-through;
+}
